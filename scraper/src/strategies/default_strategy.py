@@ -218,8 +218,6 @@ class DefaultStrategy(AbstractStrategy):
                 path = port_and_page[len(port):]
                 record['url'] = f"{http}s://{cname}{path}"
 
-            records.append(record)
-
         return records
 
     def _get_text_content_for_level(self, node, current_level, selectors):
