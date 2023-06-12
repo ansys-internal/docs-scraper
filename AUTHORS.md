@@ -8,5 +8,5 @@
 
 ## Contributors
 
-*   [Alex Kaszynski](https://github.com/akaszynski)
+* [Alex Kaszynski](https://github.com/akaszynski)
 * [Jorge Martinez](https://github.com/jorgepiloto)
