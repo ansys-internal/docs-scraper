@@ -1,6 +1,12 @@
 # Ansys Fork of meilisearch/docs-scraper
 
-This repo is forked from [meilisearch/docs-scraper](https://github.com/meilisearch/docs-scraper) and includes a few modifications to make life easier when using this from Python and and scraping Sphinx documentation.
+This repository has been forked from
+[meilisearch/docs-scraper](https://github.com/meilisearch/docs-scraper) and
+incorporates several enhancements to facilitate usage with Python and Sphinx
+documentation scraping.
+
+It is used by [pymeilisearch](https://github.com/ansys/pymeilisearch) when
+scrapping online and local documentation pages.
 
 Added:
 
