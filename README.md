@@ -29,6 +29,8 @@ options:
 
 Original documentation follows:
 
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch" width="200" height="200" />
 </p>
