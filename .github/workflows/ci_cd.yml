@@ -44,7 +44,7 @@ jobs:
   build-library:
     name: "Build library"
     runs-on: ubuntu-latest
-    needs: [tests, doc-build]
+    needs: [smoke-tests]
     steps:
       - uses: ansys/actions/build-library@v4
         with:
