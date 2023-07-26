@@ -22,19 +22,18 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX",
     "Operating System :: MacOS",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
-    "Scrapy",
-    "selenium",
-    "requests-iap",
-    "meilisearch",
-    "requests",
-    "python-keycloak-client",
-    "requests",
+    "Scrapy==2.9.0",
+    "selenium==4.10.0",
+    "requests-iap==0.2.0",
+    "meilisearch==0.28.1",
+    "requests==2.31.0",
+    "python-keycloak-client==0.2.3",
 ]
 
 [tool.flit.module]
