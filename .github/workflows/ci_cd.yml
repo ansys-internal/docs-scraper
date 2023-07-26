@@ -10,7 +10,7 @@ on:
 env:
   MAIN_PYTHON_VERSION: '3.10'
   LIBRARY_NAME: 'pymeilisearch-scraper'
-  LIBRARY_NAMESPACE: 'pymeilisearch-scraper'
+  LIBRARY_NAMESPACE: 'scraper'
   PACKAGE_NAME: 'pymeilisearch-scraper'
 
 concurrency:
@@ -36,7 +36,7 @@ jobs:
       - name: "Build wheelhouse and perform smoke test"
         uses: ansys/actions/build-wheelhouse@v4
         with:
-          library-name: ${{ env.PACKAGE_NAME }}
+          library-name: ${{ env.LIBRARY_NAME }}
           library-namespace: ${{ env.PACKAGE_NAMESPACE }}
           operating-system: ${{ matrix.os }}
           python-version: ${{ matrix.python-version }}
@@ -61,18 +61,18 @@ jobs:
       - name: "Release to the private PyPI repository"
         uses: ansys/actions/release-pypi-private@v4
         with:
-          library-name: ${{ env.PACKAGE_NAME }}
+          library-name: ${{ env.LIBRARY_NAME }}
           twine-username: "__token__"
           twine-token: ${{ secrets.PYANSYS_PYPI_PRIVATE_PAT }}
 
       - name: "Release to the public PyPI repository"
         uses: ansys/actions/release-pypi-public@v4
         with:
-          library-name: ${{ env.PACKAGE_NAME }}
+          library-name: ${{ env.LIBRARY_NAME }}
           twine-username: "__token__"
           twine-token: ${{ secrets.PYPI_TOKEN }}
 
       - name: "Release to GitHub"
         uses: ansys/actions/release-github@v4
         with:
-          library-name: ${{ env.PACKAGE_NAME }}
+          library-name: ${{ env.LIBRARY_NAME }}
