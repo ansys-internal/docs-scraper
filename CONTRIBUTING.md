@@ -11,8 +11,8 @@ First of all, thank you for contributing to Meilisearch! The goal of this docume
 ## Assumptions
 
 1. **You're familiar with [GitHub](https://github.com) and the [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)(PR) workflow.**
-2. **You've read the Meilisearch [documentation](https://docs.meilisearch.com) and the [README](/README.md).**
-3. **You know about the [Meilisearch community](https://docs.meilisearch.com/learn/what_is_meilisearch/contact.html). Please use this for help.**
+2. **You've read the Meilisearch [documentation](https://www.meilisearch.com/docs) and the [README](/README.md).**
+3. **You know about the [Meilisearch community](https://discord.com/invite/meilisearch). Please use this for help.**
 
 ## How to Contribute
 
@@ -132,6 +132,12 @@ _[Read more about this](https://github.com/meilisearch/integration-guides/blob/m
 ### How to Publish the Release <!-- omit in TOC -->
 
 ⚠️ Before doing anything, make sure you got through the guide about [Releasing an Integration](https://github.com/meilisearch/integration-guides/blob/main/resources/integration-release.md).
+
+Make a PR modifying the file [`scraper/src/config/version.py`](/scraper/src/config/version.py) with the right version.
+
+```python
+__version__ = "X.X.X"
+```
 
 Once the changes are merged on `main`, you can publish the current draft release via the [GitHub interface](https://github.com/meilisearch/docs-scraper/releases): on this page, click on `Edit` (related to the draft release) > update the description (be sure you apply [these recommendations](https://github.com/meilisearch/integration-guides/blob/main/resources/integration-release.md#writting-the-release-description)) > when you are ready, click on `Publish release`.
 
