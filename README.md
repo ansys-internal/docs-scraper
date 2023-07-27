@@ -71,6 +71,7 @@ This scraper is used in production and runs on the [Meilisearch documentation](h
 
 ## Table of Contents <!-- omit in TOC -->
 
+- [⚡ Supercharge your Meilisearch experience](#-supercharge-your-meilisearch-experience)
 - [⚙️ Usage](#️-usage)
   - [Run your Meilisearch Instance](#run-your-meilisearch-instance)
   - [Set your Config File](#set-your-config-file)
@@ -99,6 +100,10 @@ This scraper is used in production and runs on the [Meilisearch documentation](h
 - [⚙️ Development Workflow and Contributing](#️-development-workflow-and-contributing)
 - [Credits](#credits)
 
+
+## ⚡ Supercharge your Meilisearch experience
+
+Say goodbye to server deployment and manual updates with [Meilisearch Cloud](https://www.meilisearch.com/pricing?utm_campaign=oss&utm_source=integration&utm_medium=docs-scraper). No credit card required.
 
 ## ⚙️ Usage
 

@@ -1,9 +1,9 @@
 import builtins
 import re
-import os
-from selenium import webdriver
 
+from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+
 from ..custom_downloader_middleware import CustomDownloaderMiddleware
 from ..js_executor import JsExecutor
 
@@ -33,7 +33,6 @@ class BrowserHandler:
                 raise builtins.Exception(
                     f"Env CHROMEDRIVER_PATH='{CHROMEDRIVER_PATH}' is not a path to a file")
             driver = webdriver.Chrome(
-                CHROMEDRIVER_PATH,
                 options=chrome_options)
             CustomDownloaderMiddleware.driver = driver
             JsExecutor.driver = driver

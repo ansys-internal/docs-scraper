@@ -1,7 +1,13 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD
             "sha256": "1e21039afd28ae0be42cf35548c86464af138d1abe8313e7ae747a8df2959377"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "sha256": "a9a745464f03da5a21f5e3f352b515a8a0da44df9d3465385abd44f9930bdaa0"
+=======
+            "sha256": "6fe35bdb9b4c68fe31fbeb8cc98509d9c08db0c3e12475885dca39579c21fdb6"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -14,13 +20,13 @@
         ]
     },
     "default": {
-        "async-generator": {
+        "annotated-types": {
             "hashes": [
-                "sha256:01c7bf666359b4967d2cda0000cc2e4af16a0ae098cbffcb8472fb9e8ad6585b",
-                "sha256:6ebb3d106c12920aaae42ccb6f787ef5eefdcdd166ea3d628fa8476abe712144"
+                "sha256:47cdc3490d9ac1506ce92c7aaa76c579dc3509ff11e098fc867e5130ab7be802",
+                "sha256:58da39888f92c276ad970249761ebea80ba544b77acddaa1a4d6cf78287d45fd"
             ],
-            "markers": "python_version >= '3.5'",
-            "version": "==1.10"
+            "markers": "python_version >= '3.7'",
+            "version": "==0.5.0"
         },
         "attrs": {
             "hashes": [
@@ -42,11 +48,11 @@
                 "pydantic"
             ],
             "hashes": [
-                "sha256:4b01725c8ccf918752436a8aab595fa153c5123c147225434bf1f40041acb3c7",
-                "sha256:7f200e1d1067245f39ae2df6c547dc3de8619060012679702f6471187280e6eb"
+                "sha256:3b3d076e824ae979b271b4d497c90514c2b218811f76b0c368fb69da2556fe07",
+                "sha256:88e5d91be5b2dff9c0748ba515774c3421088922d9e77c39f8742eb41cb7db88"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
-            "version": "==3.0.0"
+            "markers": "python_version >= '3.8' and python_version < '4'",
+            "version": "==3.0.2"
         },
         "certifi": {
             "hashes": [
@@ -256,10 +262,19 @@
         },
         "exceptiongroup": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:232c37c63e4f682982c8b6459f33a8981039e5fb8756b2074364e5055c498c9e",
                 "sha256:d484c3090ba2889ae2928419117447a14daf3c1231d5e30d0aae34f354f01785"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:7b319f24340b51f55a2bf7a12ac0755a9b03e718311dac567a0f4f7fabd2f5de",
+                "sha256:f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d"
+=======
+                "sha256:12c3e887d6485d16943a309616de20ae5582633e0a2eda17f4e10fd61c1e8af5",
+                "sha256:e346e69d186172ca7cf029c8c1d16235aa0e04035e5750b4b95039e65204328f"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==1.1.1"
         },
         "filelock": {
@@ -269,6 +284,19 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==3.12.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==3.9.0"
+=======
+            "version": "==1.1.2"
+        },
+        "filelock": {
+            "hashes": [
+                "sha256:002740518d8aa59a26b0c76e10fb8c6e15eae825d34b6fdf670333fd7b938d81",
+                "sha256:cbb791cdea2a72f23da6ac5b5269ab0a0d161e9ef0100e653b69049a7706d1ec"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==3.12.2"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "h11": {
             "hashes": [
@@ -409,11 +437,25 @@
         },
         "meilisearch": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:db084bc4e90608e3aa20d318de1cafc06db5dbd2e1561003634fa05e5025bc5e",
                 "sha256:ff3ab30c92a8b1ae8ddbab9f7b94a0830ccbf6bf84f209664e2b1de076541e76"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:3c819c12e5e4a4d5d6f4007a3eef48db5fd8375c958f054ce90e068dfd566d51",
+                "sha256:f11d734d5feb4740812b6bf444a03a3375593f70993132b982d97f85d8d2876e"
+=======
+                "sha256:4e8627abe1394f04125c99e60f9f4356ba200effe5735ce9b8a44b09e3c6403c",
+                "sha256:b4cfaf140fc323c429a4e174b801bcc6dddef88bf901560ebf2fc5c0014099b5"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "index": "pypi",
+<<<<<<< HEAD
             "version": "==0.28.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==0.25.0"
+=======
+            "version": "==0.28.1"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "outcome": {
             "hashes": [
@@ -472,6 +514,7 @@
         },
         "pydantic": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:052d8654cb65174d6f9490cc9b9a200083a82cf5c3c5d3985db765757eb3b375",
                 "sha256:0c6fafa0965b539d7aab0a673a046466d23b86e4b0e8019d25fd53f4df62c277",
                 "sha256:1243d28e9b05003a89d72e7915fdb26ffd1d39bdd39b00b7dbe4afae4b557f9d",
@@ -508,8 +551,142 @@
                 "sha256:e82d4566fcd527eae8b244fa952d99f2ca3172b7e97add0b43e2d97ee77f81ab",
                 "sha256:f90c1e29f447557e9e26afb1c4dbf8768a10cc676e3781b6a577841ade126b85",
                 "sha256:f9613fadad06b4f3bc5db2653ce2f22e0de84a7c6c293909b48f6ed37b83c61f"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:012c99a9c0d18cfde7469aa1ebff922e24b0c706d03ead96940f5465f2c9cf62",
+                "sha256:0abd9c60eee6201b853b6c4be104edfba4f8f6c5f3623f8e1dba90634d63eb35",
+                "sha256:12e837fd320dd30bd625be1b101e3b62edc096a49835392dcf418f1a5ac2b832",
+                "sha256:163e79386c3547c49366e959d01e37fc30252285a70619ffc1b10ede4758250a",
+                "sha256:189318051c3d57821f7233ecc94708767dd67687a614a4e8f92b4a020d4ffd06",
+                "sha256:1c84583b9df62522829cbc46e2b22e0ec11445625b5acd70c5681ce09c9b11c4",
+                "sha256:3091d2eaeda25391405e36c2fc2ed102b48bac4b384d42b2267310abae350ca6",
+                "sha256:32937835e525d92c98a1512218db4eed9ddc8f4ee2a78382d77f54341972c0e7",
+                "sha256:3a2be0a0f32c83265fd71a45027201e1278beaa82ea88ea5b345eea6afa9ac7f",
+                "sha256:3ac1cd4deed871dfe0c5f63721e29debf03e2deefa41b3ed5eb5f5df287c7b70",
+                "sha256:3ce13a558b484c9ae48a6a7c184b1ba0e5588c5525482681db418268e5f86186",
+                "sha256:415a3f719ce518e95a92effc7ee30118a25c3d032455d13e121e3840985f2efd",
+                "sha256:43cdeca8d30de9a897440e3fb8866f827c4c31f6c73838e3a01a14b03b067b1d",
+                "sha256:476f6674303ae7965730a382a8e8d7fae18b8004b7b69a56c3d8fa93968aa21c",
+                "sha256:4c19eb5163167489cb1e0161ae9220dadd4fc609a42649e7e84a8fa8fff7a80f",
+                "sha256:4ca83739c1263a044ec8b79df4eefc34bbac87191f0a513d00dd47d46e307a65",
+                "sha256:528dcf7ec49fb5a84bf6fe346c1cc3c55b0e7603c2123881996ca3ad79db5bfc",
+                "sha256:53de12b4608290992a943801d7756f18a37b7aee284b9ffa794ee8ea8153f8e2",
+                "sha256:587d92831d0115874d766b1f5fddcdde0c5b6c60f8c6111a394078ec227fca6d",
+                "sha256:60184e80aac3b56933c71c48d6181e630b0fbc61ae455a63322a66a23c14731a",
+                "sha256:6195ca908045054dd2d57eb9c39a5fe86409968b8040de8c2240186da0769da7",
+                "sha256:61f1f08adfaa9cc02e0cbc94f478140385cbd52d5b3c5a657c2fceb15de8d1fb",
+                "sha256:72cb30894a34d3a7ab6d959b45a70abac8a2a93b6480fc5a7bfbd9c935bdc4fb",
+                "sha256:751f008cd2afe812a781fd6aa2fb66c620ca2e1a13b6a2152b1ad51553cb4b77",
+                "sha256:89f15277d720aa57e173954d237628a8d304896364b9de745dcb722f584812c7",
+                "sha256:8c32b6bba301490d9bb2bf5f631907803135e8085b6aa3e5fe5a770d46dd0160",
+                "sha256:acc6783751ac9c9bc4680379edd6d286468a1dc8d7d9906cd6f1186ed682b2b0",
+                "sha256:b1eb6610330a1dfba9ce142ada792f26bbef1255b75f538196a39e9e90388bf4",
+                "sha256:b243b564cea2576725e77aeeda54e3e0229a168bc587d536cd69941e6797543d",
+                "sha256:b41822064585fea56d0116aa431fbd5137ce69dfe837b599e310034171996084",
+                "sha256:bbd5c531b22928e63d0cb1868dee76123456e1de2f1cb45879e9e7a3f3f1779b",
+                "sha256:cf95adb0d1671fc38d8c43dd921ad5814a735e7d9b4d9e437c088002863854fd",
+                "sha256:e277bd18339177daa62a294256869bbe84df1fb592be2716ec62627bb8d7c81d",
+                "sha256:ea4e2a7cb409951988e79a469f609bba998a576e6d7b9791ae5d1e0619e1c0f2",
+                "sha256:f9289065611c48147c1dd1fd344e9d57ab45f1d99b0fb26c51f1cf72cd9bcd31",
+                "sha256:fd9b9e98068fa1068edfc9eabde70a7132017bdd4f362f8b4fd0abed79c33083"
+=======
+                "sha256:041945a6c75f2451a343674ec7d220cb7e207884fb06aaf2c16b6d0bfaf2bc39",
+                "sha256:7a3e3b1d0384eaa313f0810cffa475d6849794a9ae5768989518114771cb9241"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
+<<<<<<< HEAD
             "version": "==1.10.8"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==1.10.6"
+=======
+            "version": "==2.0.1"
+        },
+        "pydantic-core": {
+            "hashes": [
+                "sha256:038876cd2dfc1319e0256995ee74cdd90df2ce03bc6060d5eaee01cc78cf3dae",
+                "sha256:07f02b4a474fa89be0bb0b0c42eb605d2a9c8fe11ea7f82fb754060fd0a5ac33",
+                "sha256:0b435c029f00b402df3ab19c07b6d8a2e26a5abbb15117b93c457e3ed40237d7",
+                "sha256:0cec91249c78b5697294b01e66acb819433f4111ae640b7300dd5508a522342e",
+                "sha256:1005ab00b3f39b044408a357b41b66709b6eca17092d2713ee4b79d85a86457b",
+                "sha256:13ff737b9dbda2175bf2d59f8c8d0989b9a331a50d1eb8b7e6e0fdc264af3e93",
+                "sha256:15cb57ca61280eca0b8d721d3629871ab239954c4cec049acf9354405836f341",
+                "sha256:17334cef22055154b7faf7254cc0bf86fea34a7343225b8c6d2d0e54f3533048",
+                "sha256:196c90996542db0151265a1fe7b32d20f5d66fc00ec12ef6f10dd6a3be5aa05f",
+                "sha256:1fa900836d3995ecf34b48f4687a7908b5de85f194e534a7f3a88bfeaee7e25b",
+                "sha256:210ed18f2c438b282a2d5710c07dfa42b8de63647f650c742ecd18a4e02a0618",
+                "sha256:21dcb4f0168f3877cb487dc18362b78bea1e877bcb9c6b4af7563d5e00508cc0",
+                "sha256:24a46c1fd078f3dc7d075200e48b219ed0876f81753201a2d97ad09165d5383f",
+                "sha256:26722063f83c3c4f596adc1eadfa03249afa38e75f3516684de9b57e15d07346",
+                "sha256:26f948f36f679d84cb1b66be40775a09275579e9bba01178dbe9b8231dcbf691",
+                "sha256:27338dfc0a474645d6fe2139b30f006a381f7926e80485370361d7e882a60034",
+                "sha256:27b3eb357a801519dcf42f6c88a3a37e140cf29be21dd5dc152cfc9fa44c34d2",
+                "sha256:2c351a141124c216fe4a0119ef2fa5bc70eec710e59cdd79346475b3f78d15e9",
+                "sha256:2c587db8f31a1c3270991945c20c2ace289fbfa7cf2d533f67f47e95c9ead83e",
+                "sha256:2e02faa4a5e9bd1d7cb4b056c911826f67c4bf298979f89f07c3f2446cd0cf86",
+                "sha256:2f45943b592070fd744660fc8e31a010ae78a6e91f8e6431c07f6dce022eb03f",
+                "sha256:312263dea8116f68972c41c53c0a5b5bf9f7732e7bdc978acb847ed7c9fc8207",
+                "sha256:3127bd2a5764ed08529ca03f8b9e486d347fb2f604cd8333ae7e55a1693073af",
+                "sha256:31f95633f6a3ddc8e0b850157ac0cedb8ccacbe4349310b4be6d724860d8f5c0",
+                "sha256:4277e1941faa5c59fddfc49dae98dc94c16288bc9a09c7b17599c8388aeadcb5",
+                "sha256:433b13fa81a06589dae5198dd285c5621714d4b6d75da058ba8347f8c36cb796",
+                "sha256:4b73e646fda49a5b503f7484a8797a36697b28b5be3adb597460f1d3d337fb82",
+                "sha256:4cd3178131bb7d0d3df947587d76cf9d1ab4318fe45e8ad18dafba3b1f0cda6d",
+                "sha256:4d5cece19558a3490ace346d70322766e670c51ce98ab9bea3e85efba6c00424",
+                "sha256:4ed79de66b4b9acdd613c48befe4afcbee05f6153d793df6922ffc392f46720e",
+                "sha256:51defb4826a28644034915ec5f5a5d3be2d56b683891343d53dfca936c634326",
+                "sha256:5465264bbc535a8650a3806ae5bd07e2691428004a52c961281eadce519c60cc",
+                "sha256:5598f9d4e063e9a64233792dc0f8a0fab8036fb66d25cfc356649667a6542bfb",
+                "sha256:5e931731368ea56f1787fc408757708348639ef2aa1f01e3d483ad1574780b92",
+                "sha256:638b474da73e71079f39a80e4d70196853c2d2fc98c3d425ce3a3ae738e2245f",
+                "sha256:6ccade95f48f47c898632d8dd995704924fce0f99deb7fd4f24348792769abec",
+                "sha256:751e6deca13d89bc5ffc4684ac8a4ea08c6c0ac8dfe12cc5d6927f249879131d",
+                "sha256:75bbf0045f52696aa317b38e67ef5c80a15b7aab572956df2c6fb44f3f4c8b3e",
+                "sha256:7d1c453a36e69ddd4ea47a8e5426a63fdcb731d18122571fbdfda23b07ad28b1",
+                "sha256:7e5264ed7727ab09c410a98c47430c2ab426c2edb9a7b613ca1d785dd3506b7d",
+                "sha256:8136e89efab6f8399bdaf5254758db37049eeaa2f39645ce999aa5162392be28",
+                "sha256:84f1eb4d23a37f77b20dabffe7d5971c6c8eea78bd977fcd2007704ccb540230",
+                "sha256:89d271bae5b6e43936e0365b387d317bd309c5e7c5645b7608b939410fb86968",
+                "sha256:8e63f360661847422423410ebe755258aefad8bd67e9ac516eb1d02a90bdf788",
+                "sha256:8ebb72dec9eefc3eb419de764d0510bbaa08e4db2b4a997576cce338a5f93c97",
+                "sha256:996ffb7ae3c8cb7506a58dae52bbf13a7bbbfce6c3110a2b44c20d2587e57b9b",
+                "sha256:9cf009170f5f93c3dad4c4f73d827541d4bb7099cf69216c091d8cdd33867255",
+                "sha256:9d65b216c0e55414330e46c272896d4858a30d53310aa6e58520e2fc3d122deb",
+                "sha256:a10ce991b6986c91fdf100611d97f76b2950a1d2c2e72be0484565bf95b03767",
+                "sha256:a349f816319ac85759a19ccb0e93992fe77f8e1961a389cd15c3b5c6098bcabd",
+                "sha256:a5576ad07f480a21b38fff2e15d2c90ab3b18f36692065235df237711b402afd",
+                "sha256:aab82425d10bf0624e4a7ac902eed33adae413e827b53d82ae131a10c3130208",
+                "sha256:b024721a940a3311328d50f7cc3d9a7aced0f5ee1fd30c0fa7cbbc542ec3a55c",
+                "sha256:b67ede74b43598feb405a628c83087b3df1066a388ab060cdd5333d061ecf3f5",
+                "sha256:b8b622793e7b7ecb25916f30e91d49424a1f10db08aa151ff7eabd29039ae15c",
+                "sha256:bd9587083b48ec822960a8047249c8119e82749bdf96cecc2e1975322ccb1405",
+                "sha256:bf4bb512eb302acbef4774f65a9ae83edfb283055de7b18b9656b8fda0869652",
+                "sha256:c17fd1d0fef829b364fbbd06aad286b7a73b7b93a46f1967aff1c8f78e5a250a",
+                "sha256:c344dd1c345b2206515edaba0e0bf4aa2b1c456822f3ac9bc0d9f7fc971a8934",
+                "sha256:c44ec0439fac342f773cd848b20cf28cc376670369a6d42845d180f18f2671e3",
+                "sha256:c63bb44c2af1250fcf6e8447b0fda17f09d28e4677910f5bc1328881ae2c527e",
+                "sha256:c7a2c290d6abff5abf6566aa5ea07342e74af42f4defb1f33b3b3d9e7ff1c61f",
+                "sha256:c815a0908065dd8eae0740e55063fcf730c5ef86edf6210ecd53ace3a85c9911",
+                "sha256:c9f856a5c8938f2e0c7bb337f09d5212afd390627929c53e5f0c5944c99732fc",
+                "sha256:ca833856df881b9809747131c38bf7b6af7262ab2c77a2834b9e9d64cf43ab4e",
+                "sha256:d088fdc5cc709a715cf9f49e698a5690cc00616d3379e55d07423e628a21a097",
+                "sha256:d2db12d32b3b83c3d1a2044f9ba31aca9a8224c7eb15d949bdae3e826ee8c6ec",
+                "sha256:d4677520ade160805ad55a6418db7beea9dea34f0a091da1f0bcf09c66091b54",
+                "sha256:dbe2b50a4c3bcc9962449eea1c73d2e509a4e3a96df38511b898eea768fde4a4",
+                "sha256:dc901bb6ffe6d983903242dd7495660161b8901307c5280534fee3b0a90f98e6",
+                "sha256:e28d86253cdc638d084751bcc1217944370c567722d377c1364fd1433d0a41f9",
+                "sha256:e5bcca875379fab98c7b8b4ddfe932844d9ac7dc0a850c5afa414d17988aed93",
+                "sha256:e6973ccb84a532e35b6a9f7f8d6024688186d950278700d408836219aa5b6164",
+                "sha256:e7d6a9e510ae4ea02db709472102fa7b59d48441a6c0419a7d21d0b96672a469",
+                "sha256:e7d8df9e29ecc2930d27fccde99ae86c1dfc42c1f92e81715df2a7dc1f7f466e",
+                "sha256:f295db65d4de14c0b46168a6db73be34b8fe4e3e2699a9c574b37412d0dd2a41",
+                "sha256:f8119485a74487780fecf8c03cce66a2fb13da2e68f4219af7aca9d0eb8ff64d",
+                "sha256:fb3d452def28f86fcec749659fea183650c23aa46ae4d8a9996463a1793587b5",
+                "sha256:fb6551210cef7423d68eaaeab60a9445e17edd33d251b2ab6c783afce9811df8",
+                "sha256:fc4cb821dc67963463f8d8be6dca8933210d050009b32f683d02444a3d5f1e02",
+                "sha256:fede91ea67570eb296d4ae88aecb9c51a46cdccb35a388dba759183ba84c61d6"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.2"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "pydispatcher": {
             "hashes": [
@@ -607,26 +784,55 @@
         },
         "selenium": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:3444f4376321530c36ce8355b6b357d8cf4a7d588ce5cf772183465930bbed0e",
                 "sha256:82aedaa85d55bc861f4c89ff9609e82f6c958e2e1e3da3ffcc36703f21d3ee16"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:bd04eb41395605d9b2b65fe587f3fed21431da75512985c52772529e5e210c60",
+                "sha256:c48372905bffcc3b24bd55ab4683a07ee5e1f30fe918c59558ea5ee44cedf6c3"
+=======
+                "sha256:40241b9d872f58959e9b34e258488bf11844cd86142fd68182bd41db9991fc5c",
+                "sha256:871bf800c4934f745b909c8dfc7d15c65cf45bd2e943abd54451c810ada395e3"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "index": "pypi",
+<<<<<<< HEAD
             "version": "==4.9.1"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==4.8.2"
+=======
+            "version": "==4.10.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "service-identity": {
             "hashes": [
-                "sha256:6e6c6086ca271dc11b033d17c3a8bea9f24ebff920c587da090afc9519419d34",
-                "sha256:f0b0caac3d40627c3c04d7a51b6e06721857a0e10a8775f2d1d7e72901b3a7db"
+                "sha256:87415a691d52fcad954a500cb81f424d0273f8e7e3ee7d766128f4575080f383",
+                "sha256:ecb33cd96307755041e978ab14f8b14e13b40f1fbd525a4dc78f46d2b986431d"
             ],
-            "version": "==21.1.0"
+            "markers": "python_version >= '3.8'",
+            "version": "==23.1.0"
         },
         "setuptools": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:5df61bf30bb10c6f756eb19e7c9f3b473051f48db77fddbe06ff2ca307df9a6f",
                 "sha256:62642358adc77ffa87233bc4d2354c4b2682d214048f500964dbe760ccedf102"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077",
+                "sha256:b78aaa36f6b90a074c1fa651168723acbf45d14cb1196b6f02c0fd07f17623b2"
+=======
+                "sha256:11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f",
+                "sha256:baf1fdb41c6da4cd2eae722e135500da913332ab3f2f5c7d33af9b492acb5235"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==67.8.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==67.6.0"
+=======
+            "version": "==68.0.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "six": {
             "hashes": [
@@ -661,19 +867,35 @@
         },
         "trio": {
             "hashes": [
-                "sha256:ce68f1c5400a47b137c5a4de72c7c901bd4e7a24fbdebfe9b41de8c6c04eaacf",
-                "sha256:f1dd0780a89bfc880c7c7994519cb53f62aacb2c25ff487001c0052bd721cdf0"
+                "sha256:1270da4a4a33caf33f85c6a255f2ef5f71629a3ec9aea31a052062b673ae58d3",
+                "sha256:eb5f641b313eb502a16de176d84cecd9ccf2394a7c8655d2297398376bb15eca"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.22.0"
+            "version": "==0.22.1"
         },
         "trio-websocket": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:0908435e4eecc49d830ae1c4d6c47b978a75f00594a2be2104d58b61a04cdb53",
                 "sha256:af13e9393f9051111300287947ec595d601758ce3d165328e7d36325135a8d62"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:5b558f6e83cc20a37c3b61202476c5295d1addf57bd65543364e0337e37ed2bc",
+                "sha256:a3d34de8fac26023eee701ed1e7bf4da9a8326b61a62934ec9e53b64970fd8fe"
+=======
+                "sha256:1a748604ad906a7dcab9a43c6eb5681e37de4793ba0847ef0bc9486933ed027b",
+                "sha256:a9937d48e8132ebf833019efde2a52ca82d223a30a7ea3e8d60a7d28f75a4e3a"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
+<<<<<<< HEAD
             "markers": "python_version >= '3.7'",
             "version": "==0.10.2"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "markers": "python_version >= '3.5'",
+            "version": "==0.9.2"
+=======
+            "markers": "python_version >= '3.7'",
+            "version": "==0.10.3"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "twisted": {
             "hashes": [
@@ -685,22 +907,57 @@
         },
         "typing-extensions": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:88a4153d8505aabbb4e13aacb7c486c2b4a33ca3b3f807914a9b4c844c471c26",
                 "sha256:d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb",
+                "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"
+=======
+                "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36",
+                "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==4.6.3"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==4.5.0"
+=======
+            "version": "==4.7.1"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "urllib3": {
+<<<<<<< HEAD
             "extras": [
 
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "hashes": [
+                "sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305",
+                "sha256:aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
+=======
+            "extras": [
+                "socks"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
+<<<<<<< HEAD
             "hashes": [
                 "sha256:61717a1095d7e155cdb737ac7bb2f4324a858a1e2e6466f6d03ff630ca68d3cc",
                 "sha256:d055c2f9d38dc53c808f6fdc8eab7360b6fdbbde02340ed25cfbcd817c62469e"
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.2"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "version": "==1.26.15"
+=======
+            "hashes": [
+                "sha256:48e7fafa40319d358848e1bc6809b208340fafe2096f1725d05d67443d0483d1",
+                "sha256:bee28b5e56addb8226c96f7f13ac28cb4c301dd5ea8a6ca179c0b9835e032825"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.3"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "w3lib": {
             "hashes": [
@@ -813,27 +1070,63 @@
         },
         "exceptiongroup": {
             "hashes": [
-                "sha256:232c37c63e4f682982c8b6459f33a8981039e5fb8756b2074364e5055c498c9e",
-                "sha256:d484c3090ba2889ae2928419117447a14daf3c1231d5e30d0aae34f354f01785"
+                "sha256:12c3e887d6485d16943a309616de20ae5582633e0a2eda17f4e10fd61c1e8af5",
+                "sha256:e346e69d186172ca7cf029c8c1d16235aa0e04035e5750b4b95039e65204328f"
             ],
+<<<<<<< HEAD
             "markers": "python_version >= '3.7'",
             "version": "==1.1.1"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "markers": "python_version < '3.11'",
+            "version": "==1.1.1"
+=======
+            "markers": "python_version >= '3.7'",
+            "version": "==1.1.2"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "filelock": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:ad98852315c2ab702aeb628412cbf7e95b7ce8c3bf9565670b4eaecf1db370a9",
                 "sha256:fc03ae43288c013d2ea83c8597001b1129db351aad9c57fe2409327916b8e718"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:7b319f24340b51f55a2bf7a12ac0755a9b03e718311dac567a0f4f7fabd2f5de",
+                "sha256:f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d"
+=======
+                "sha256:002740518d8aa59a26b0c76e10fb8c6e15eae825d34b6fdf670333fd7b938d81",
+                "sha256:cbb791cdea2a72f23da6ac5b5269ab0a0d161e9ef0100e653b69049a7706d1ec"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==3.12.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==3.9.0"
+=======
+            "version": "==3.12.2"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "importlib-metadata": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:43dd286a2cd8995d5eaef7fee2066340423b818ed3fd70adf0bad5f1fac53fed",
                 "sha256:92501cdf9cc66ebd3e612f1b4f0c0765dfa42f0fa38ffb319b6bd84dd675d705"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:7efb448ec9a5e313a57655d35aa54cd3e01b7e1fbcf72dce1bf06119420f5bad",
+                "sha256:e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d"
+=======
+                "sha256:1aaf550d4f73e5d6783e7acb77aec43d49da8017410afae93822cc9cca98c4d4",
+                "sha256:cb52082e659e97afc5dac71e79de97d8681de3aa07ff18578330904a9d18e5b5"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version < '3.8'",
+<<<<<<< HEAD
             "version": "==6.6.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==6.0.0"
+=======
+            "version": "==6.7.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "iniconfig": {
             "hashes": [
@@ -911,27 +1204,55 @@
         },
         "pipenv": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:997c113bd693bc36750ad00f80a0814d3cce310f4687fe38bde578048bb059c4",
                 "sha256:be42b0a6d4e7d2c3fdeae4d825a91038610bc6be3c3e7eb26f35d8da7b3485ad"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:4e45226d197ad84fa11a9d944cb0e1bfcc197919944d0af96e55adf7e1fdc76c",
+                "sha256:ecbe4e301616c5fa3128d557507d79a35d895cd922139969929d7357b66b1509"
+=======
+                "sha256:116061545d4e2281cbc799f7736a715ee5ddf0a6f63c09f4263a4a6a0779fe93",
+                "sha256:404de9ff6a2464e20e52aaad71db2d4f8f2900f2177fc45a47f6315686cb2e5b"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==2023.6.2"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==2023.2.18"
+=======
+            "version": "==2023.7.3"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "platformdirs": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:412dae91f52a6f84830f39a8078cecd0e866cb72294a5c66808e74d5e88d251f",
                 "sha256:e2378146f1964972c03c085bb5662ae80b2b8c06226c54b2ff4aa9483e8a13a5"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:024996549ee88ec1a9aa99ff7f8fc819bb59e2c3477b410d90a16d32d6e707aa",
+                "sha256:e5986afb596e4bb5bde29a79ac9061aa955b94fca2399b7aaac4090860920dd8"
+=======
+                "sha256:b0cabcb11063d21a0b261d557acb0a9d2126350e63b70cdf7db6347baea456dc",
+                "sha256:ca9ed98ce73076ba72e092b23d3c93ea6c4e186b3f1c3dad6edd98ff6ffcca2e"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==3.5.1"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==3.1.1"
+=======
+            "version": "==3.8.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "pluggy": {
             "hashes": [
-                "sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159",
-                "sha256:74134bbf457f031a36d68416e1509f34bd5ccc019f0bcc952c7b909d06b37bd3"
+                "sha256:c2fd55a7d7a3863cba1a013e4e2414658b1d07b6bc57b3919e0c63c9abb99849",
+                "sha256:d12f0c4b579b15f5e054301bb226ee85eeeba08ffec228092f8defbaa3a4c4b3"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.0.0"
+            "markers": "python_version >= '3.7'",
+            "version": "==1.2.0"
         },
         "pylint": {
             "hashes": [
@@ -943,27 +1264,55 @@
         },
         "pyproject-api": {
             "hashes": [
-                "sha256:435f46547a9ff22cf4208ee274fca3e2869aeb062a4834adfc99a4dd64af3cf9",
-                "sha256:4698a3777c2e0f6b624f8a4599131e2a25376d90fe8d146d7ac74c67c6f97c43"
+                "sha256:999f58fa3c92b23ebd31a6bad5d1f87d456744d75e05391be7f5c729015d3d91",
+                "sha256:9cffcbfb64190f207444d7579d315f3278f2c04ba46d685fad93197b5326d348"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.5.1"
+            "version": "==1.5.2"
         },
         "pytest": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:3799fa815351fea3a5e96ac7e503a96fa51cc9942c3753cda7651b93c1cfa362",
                 "sha256:434afafd78b1d78ed0addf160ad2b77a30d35d4bdf8af234fe621919d9ed15e3"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:130328f552dcfac0b1cec75c12e3f005619dc5f874f0a06e8ff7263f0ee6225e",
+                "sha256:c99ab0c73aceb050f68929bc93af19ab6db0558791c6a0715723abe9d0ade9d4"
+=======
+                "sha256:78bf16451a2eb8c7a2ea98e32dc119fd2aa758f1d5d66dbf0a59d69a3969df32",
+                "sha256:b4bf8c45bd59934ed84001ad51e11b4ee40d40a1229d2c79f9c592b0a3f6bd8a"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "index": "pypi",
+<<<<<<< HEAD
             "version": "==7.3.1"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==7.2.2"
+=======
+            "version": "==7.4.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "setuptools": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:5df61bf30bb10c6f756eb19e7c9f3b473051f48db77fddbe06ff2ca307df9a6f",
                 "sha256:62642358adc77ffa87233bc4d2354c4b2682d214048f500964dbe760ccedf102"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077",
+                "sha256:b78aaa36f6b90a074c1fa651168723acbf45d14cb1196b6f02c0fd07f17623b2"
+=======
+                "sha256:11e52c67415a381d10d6b462ced9cfb97066179f0e871399e006c4ab101fc85f",
+                "sha256:baf1fdb41c6da4cd2eae722e135500da913332ab3f2f5c7d33af9b492acb5235"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==67.8.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==67.6.0"
+=======
+            "version": "==68.0.0"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "tomli": {
             "hashes": [
@@ -983,11 +1332,25 @@
         },
         "tox": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:4874000453e637a87ca892f9744a2ab9a7d24064dad1b0ecbf5a4c3c146cc732",
                 "sha256:954f1f647f67f481d239a193288983242a6152b67503c4a56b19a4aafaa29736"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:52c92a96e2c3fd47c5301e9c26f5a871466133d5376958c1ed95ef4ff4629cbe",
+                "sha256:da10ca1d809b99fae80b706b9dc9656b1daf505a395ac427d130a8a85502d08f"
+=======
+                "sha256:2946a0bb38924c3a9f9575c7fb4ca1f4c11a7c69c61592f176778892155cb50c",
+                "sha256:9e2c5091a117d03b583c57c4c40aecd068099c17d40520e7b165e85c19334534"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "index": "pypi",
+<<<<<<< HEAD
             "version": "==4.6.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==4.4.7"
+=======
+            "version": "==4.6.3"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "tox-pipenv": {
             "hashes": [
@@ -999,11 +1362,25 @@
         },
         "virtualenv": {
             "hashes": [
+<<<<<<< HEAD
                 "sha256:6abec7670e5802a528357fdc75b26b9f57d5d92f29c5462ba0fbe45feacc685e",
                 "sha256:a85caa554ced0c0afbd0d638e7e2d7b5f92d23478d05d17a76daeac8f279f924"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+                "sha256:31712f8f2a17bd06234fa97fdf19609e789dd4e3e4bf108c3da71d710651adbc",
+                "sha256:f50e3e60f990a0757c9b68333c9fdaa72d7188caa417f96af9e52407831a3b68"
+=======
+                "sha256:34da10f14fea9be20e0fd7f04aba9732f84e593dac291b757ce42e3368a39419",
+                "sha256:8ff19a38c1021c742148edc4f81cb43d7f8c6816d2ede2ab72af5b84c749ade1"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
             ],
             "markers": "python_version >= '3.7'",
+<<<<<<< HEAD
             "version": "==20.23.0"
+||||||| parent of ed03278 (FEAT: allign to pyansys guidelines (#9))
+            "version": "==20.21.0"
+=======
+            "version": "==20.23.1"
+>>>>>>> ed03278 (FEAT: allign to pyansys guidelines (#9))
         },
         "virtualenv-clone": {
             "hashes": [
