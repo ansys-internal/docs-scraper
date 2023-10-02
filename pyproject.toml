@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "pymeilisearch-scraper"
-version = "0.2.dev0"
+version = "0.3.dev0"
 description = "Documentation scrapper for PyMeilisearch"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -41,10 +41,6 @@ name = "scraper"
 Homepage = "https://github.com/ansys/pymeilisearch-scraper"
 Source = "https://github.com/ansys/pymeilisearch-scraper"
 Tracker = "https://github.com/ansys/pymeilisearch-scraper/issues"
-
-[project.entry-points."scraper"]
-scraper = "scraper.__main__:main"
-
 
 [project.optional-dependencies]
 dev = [
