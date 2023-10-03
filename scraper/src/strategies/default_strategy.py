@@ -213,9 +213,9 @@ class DefaultStrategy(AbstractStrategy):
             # http://localhost:1314/index.html#pyansys-actions
             cname = os.getenv("DOCUMENTATION_CNAME")
             if cname is not None:
-                url_parts = record.get("url", "").split(":", 2)
-                if len(url_parts) > 2:
-                    http, _, port_and_page = url_parts
+                url = record.get("url")
+                if url:
+                    http, _, port_and_page = url.split(":", 2)
                     port = os.getenv("DOCUMENTATION_PORT")
                     path = port_and_page[len(port):]
                     record['url'] = f"{http}s://{cname}{path}"
