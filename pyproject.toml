@@ -30,7 +30,7 @@ dependencies = [
     "selenium==4.10.0",
     "requests-iap==0.2.0",
     "meilisearch==0.28.2",
-    "requests==2.31.0",
+    "requests==2.32.1",
     "python-keycloak-client==0.2.3",
 ]
 
